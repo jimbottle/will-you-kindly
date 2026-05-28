@@ -8,8 +8,8 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/jimbottle/will-you-kindly/internal/beads"
-	"github.com/jimbottle/will-you-kindly/internal/filter"
+	"github.com/jimbottle/would-you-kindly/internal/beads"
+	"github.com/jimbottle/would-you-kindly/internal/filter"
 )
 
 // stubSource lets tests fix the Fetch result.

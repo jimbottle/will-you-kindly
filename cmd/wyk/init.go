@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/jimbottle/will-you-kindly/internal/registry"
+	"github.com/jimbottle/would-you-kindly/internal/registry"
 )
 
 // postCommitHook is the shell script `wyk init` installs at

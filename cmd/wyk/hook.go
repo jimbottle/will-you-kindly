@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jimbottle/will-you-kindly/internal/beads"
+	"github.com/jimbottle/would-you-kindly/internal/beads"
 )
 
 // closeRefRE matches lines of a commit message that signal an
@@ -19,7 +19,7 @@ import (
 // recognise — Closes / Fixes / Resolves, case-insensitive, optionally
 // suffixed with ":" or "#", followed by an ID that looks like a bd
 // issue (lowercase + digits + hyphens, with optional ".N" suffixes
-// for hierarchical IDs like will-you-kindly-ma5.4).
+// for hierarchical IDs like would-you-kindly-ma5.4).
 //
 // Anchoring to line-start (multiline mode) keeps a stray "closes:"
 // inside a code block or sentence from triggering a real close. The

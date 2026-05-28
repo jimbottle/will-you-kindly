@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jimbottle/will-you-kindly/internal/beads"
-	"github.com/jimbottle/will-you-kindly/internal/filter"
+	"github.com/jimbottle/would-you-kindly/internal/beads"
+	"github.com/jimbottle/would-you-kindly/internal/filter"
 )
 
 // BDSource is a single-repo Source backed by the bd CLI. It centralises

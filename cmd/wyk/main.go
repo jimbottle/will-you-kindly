@@ -1,4 +1,4 @@
-// wyk (will-you-kindly) is a terminal UI over the bd (beads) issue
+// wyk (would-you-kindly) is a terminal UI over the bd (beads) issue
 // tracker. It surfaces tasks an agent has handed to a human — see
 // docs/CONTRACT.md for the convention it follows.
 //
@@ -22,11 +22,11 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/jimbottle/will-you-kindly/internal/beads"
-	"github.com/jimbottle/will-you-kindly/internal/filter"
-	"github.com/jimbottle/will-you-kindly/internal/registry"
-	"github.com/jimbottle/will-you-kindly/internal/tui"
-	"github.com/jimbottle/will-you-kindly/pkg/handoff"
+	"github.com/jimbottle/would-you-kindly/internal/beads"
+	"github.com/jimbottle/would-you-kindly/internal/filter"
+	"github.com/jimbottle/would-you-kindly/internal/registry"
+	"github.com/jimbottle/would-you-kindly/internal/tui"
+	"github.com/jimbottle/would-you-kindly/pkg/handoff"
 )
 
 func main() {

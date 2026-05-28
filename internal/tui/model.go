@@ -1,4 +1,4 @@
-// Package tui is the Bubble Tea interface that drives will-you-kindly.
+// Package tui is the Bubble Tea interface that drives would-you-kindly.
 //
 // The model is kept deliberately flat: a single Model struct holds the
 // current issues, cursor position, mode (list, detail, filter input),
@@ -20,8 +20,8 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	"github.com/sahilm/fuzzy"
 
-	"github.com/jimbottle/will-you-kindly/internal/beads"
-	"github.com/jimbottle/will-you-kindly/internal/filter"
+	"github.com/jimbottle/would-you-kindly/internal/beads"
+	"github.com/jimbottle/would-you-kindly/internal/filter"
 )
 
 // titleSource and descSource each expose ONE field of the issue
@@ -729,7 +729,7 @@ func (m Model) viewHelp() string {
 func (m Model) viewList() string {
 	var b strings.Builder
 
-	header := titleStyle.Render("will-you-kindly")
+	header := titleStyle.Render("would-you-kindly")
 	b.WriteString(header)
 	b.WriteString("\n\n")
 

@@ -1,6 +1,6 @@
 # Human-in-the-loop contract
 
-`will-you-kindly` (binary `wyk`) surfaces beads issues that an agent has handed
+`would-you-kindly` (binary `wyk`) surfaces beads issues that an agent has handed
 back to a human. The convention below uses only features bd already supports —
 no schema changes, no parallel storage — so any bd CLI or compatible tool can
 read and write it.
@@ -46,7 +46,7 @@ When an agent decides to hand a task back, the canonical call is
 [`pkg/handoff.BounceToHuman`](../pkg/handoff/handoff.go):
 
 ```go
-import "github.com/jimbottle/will-you-kindly/pkg/handoff"
+import "github.com/jimbottle/would-you-kindly/pkg/handoff"
 
 // c is any handoff.Mutator — beads.Client satisfies it directly.
 err := handoff.BounceToHuman(ctx, c, "wyk-42", runbook)

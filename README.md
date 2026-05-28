@@ -1,4 +1,4 @@
-# will-you-kindly
+# would-you-kindly
 
 A terminal UI over the [beads](https://github.com/gastownhall/beads) issue
 tracker, built for one specific moment: when an agent finishes the
@@ -31,10 +31,10 @@ You'll need Go 1.26+ (matching `go.mod`) and
 
 ```bash
 # Latest tagged release:
-go install github.com/jimbottle/will-you-kindly/cmd/wyk@v0.1.0
+go install github.com/jimbottle/would-you-kindly/cmd/wyk@v0.1.0
 
 # Or tip of main:
-go install github.com/jimbottle/will-you-kindly/cmd/wyk@latest
+go install github.com/jimbottle/would-you-kindly/cmd/wyk@latest
 ```
 
 Or from a checkout:
@@ -74,9 +74,9 @@ For scripts and CI:
 ```bash
 wyk --probe
 # 3 issue(s) flagged for human:
-#   will-you-kindly-2oa      P1  Rotate the staging database password
-#   will-you-kindly-1ej      P2  Approve the v0.3.0 release on GitHub
-#   will-you-kindly-117      P3  Decide retention policy for ephemeral wisp beads
+#   would-you-kindly-2oa      P1  Rotate the staging database password
+#   would-you-kindly-1ej      P2  Approve the v0.3.0 release on GitHub
+#   would-you-kindly-117      P3  Decide retention policy for ephemeral wisp beads
 ```
 
 Exits 0 on success, 2 if bd is missing or there's no workspace, 1 on
@@ -119,7 +119,7 @@ After `wyk init`, every commit whose message contains a
 closes the referenced bd issue. Hierarchical IDs work too:
 
 ```
-Closes: will-you-kindly-ma5.4
+Closes: would-you-kindly-ma5.4
 Fixes #bd-42
 Resolves: my-project-abc
 ```

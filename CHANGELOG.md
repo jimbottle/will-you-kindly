@@ -292,5 +292,5 @@ through multiple roborev rounds.
   real bd issues.
 - Any background daemon.
 
-[Unreleased]: https://github.com/jimbottle/will-you-kindly/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/jimbottle/will-you-kindly/releases/tag/v0.1.0
+[Unreleased]: https://github.com/jimbottle/would-you-kindly/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/jimbottle/would-you-kindly/releases/tag/v0.1.0

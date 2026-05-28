@@ -33,8 +33,8 @@ func TestParseCloseRefs(t *testing.T) {
 		},
 		{
 			name: "hierarchical IDs with dots",
-			in:   "Closes: will-you-kindly-ma5.4\nFixes: my-proj-abc.1.2",
-			want: []string{"will-you-kindly-ma5.4", "my-proj-abc.1.2"},
+			in:   "Closes: would-you-kindly-ma5.4\nFixes: my-proj-abc.1.2",
+			want: []string{"would-you-kindly-ma5.4", "my-proj-abc.1.2"},
 		},
 		{
 			name: "duplicates collapsed, order preserved",
@@ -98,10 +98,10 @@ func TestParseCloseRefs_RealWykCommit(t *testing.T) {
 
 internal/beads/client.go shells out to the bd binary.
 
-Refs: will-you-kindly-8et
-Closes: will-you-kindly-ci6`
+Refs: would-you-kindly-8et
+Closes: would-you-kindly-ci6`
 	got := parseCloseRefs(msg)
-	want := []string{"will-you-kindly-ci6"}
+	want := []string{"would-you-kindly-ci6"}
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("got %v, want %v", got, want)
 	}

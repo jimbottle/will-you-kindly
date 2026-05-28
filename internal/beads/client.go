@@ -34,7 +34,7 @@ const autoCommitFlag = "--dolt-auto-commit=on"
 type runner func(ctx context.Context, binary string, args []string, stdin io.Reader) (stdout, stderr []byte, err error)
 
 // Client shells out to the bd CLI and parses its JSON output. It is
-// the single seam between will-you-kindly and bd; all reads and
+// the single seam between would-you-kindly and bd; all reads and
 // writes hang their methods here.
 type Client struct {
 	// Binary is the bd executable name or absolute path.
