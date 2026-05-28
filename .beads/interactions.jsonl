@@ -19,3 +19,4 @@
 {"id":"int-5355c085","kind":"field_change","created_at":"2026-05-28T15:14:09.982077Z","actor":"jimbottle","issue_id":"would-you-kindly-8h7","extra":{"field":"status","new_value":"closed","old_value":"open","reason":"Closed"}}
 {"id":"int-d254f64d","kind":"field_change","created_at":"2026-05-28T15:17:10.241955Z","actor":"jimbottle","issue_id":"would-you-kindly-kna.1.1","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
 {"id":"int-60a1d9a0","kind":"field_change","created_at":"2026-05-28T15:17:10.553017Z","actor":"jimbottle","issue_id":"would-you-kindly-kna.1.2","extra":{"field":"status","new_value":"closed","old_value":"open","reason":"Closed"}}
+{"id":"int-01cc67e0","kind":"field_change","created_at":"2026-05-28T15:20:36.481188Z","actor":"jimbottle","issue_id":"would-you-kindly-kna.2","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
