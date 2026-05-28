@@ -33,3 +33,5 @@
 {"id":"int-c756a370","kind":"field_change","created_at":"2026-05-28T16:48:09.363Z","actor":"jimbottle","issue_id":"would-you-kindly-5i0.1","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
 {"id":"int-e68eddff","kind":"field_change","created_at":"2026-05-28T16:50:05.790454Z","actor":"jimbottle","issue_id":"would-you-kindly-5i0.2","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
 {"id":"int-deb9e064","kind":"field_change","created_at":"2026-05-28T16:50:06.104424Z","actor":"jimbottle","issue_id":"would-you-kindly-5i0","extra":{"field":"status","new_value":"closed","old_value":"open","reason":"Closed"}}
+{"id":"int-3feb4892","kind":"field_change","created_at":"2026-05-28T17:02:58.967886Z","actor":"jimbottle","issue_id":"would-you-kindly-b2t.1","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
+{"id":"int-3f542b41","kind":"field_change","created_at":"2026-05-28T17:02:59.513873Z","actor":"jimbottle","issue_id":"would-you-kindly-b2t.2","extra":{"field":"status","new_value":"closed","old_value":"open","reason":"Closed"}}
