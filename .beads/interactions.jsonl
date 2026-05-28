@@ -11,3 +11,4 @@
 {"id":"int-d3aa5a8b","kind":"field_change","created_at":"2026-05-28T13:32:34.234391Z","actor":"jimbottle","issue_id":"will-you-kindly-whz.2","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
 {"id":"int-b66b20b4","kind":"field_change","created_at":"2026-05-28T13:32:34.511506Z","actor":"jimbottle","issue_id":"will-you-kindly-whz.3","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
 {"id":"int-fe4bcfed","kind":"field_change","created_at":"2026-05-28T13:32:34.859699Z","actor":"jimbottle","issue_id":"will-you-kindly-whz","extra":{"field":"status","new_value":"closed","old_value":"open","reason":"Closed"}}
+{"id":"int-0b9a4733","kind":"field_change","created_at":"2026-05-28T14:07:27.345594Z","actor":"jimbottle","issue_id":"will-you-kindly-0fe","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Closed"}}
