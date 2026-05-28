@@ -31,7 +31,7 @@ You'll need Go 1.26+ (matching `go.mod`) and
 
 ```bash
 # Latest tagged release:
-go install github.com/jimbottle/would-you-kindly/cmd/wyk@v0.1.0
+go install github.com/jimbottle/would-you-kindly/cmd/wyk@v0.2.0
 
 # Or tip of main:
 go install github.com/jimbottle/would-you-kindly/cmd/wyk@latest
@@ -118,8 +118,8 @@ wyk doctor
 #          /Users/evanray/.local/bin/wyk
 #   [PASS] wyk registry
 #          ~/.config/wyk/repos.json — 2 repo(s) registered
-#   [PASS] repo will-you-kindly: .beads/ present
-#   [PASS] repo will-you-kindly: post-commit hook (chained)
+#   [PASS] repo would-you-kindly: .beads/ present
+#   [PASS] repo would-you-kindly: post-commit hook (chained)
 #   ...
 #   doctor: OK
 ```
@@ -310,10 +310,9 @@ Drop screenshots of the TUI here. Good captures:
 
 ## Status
 
-**v0.1.0 shipped** with read + write + handoff + post-commit hook +
-multi-repo registry + agent skill. `[Unreleased]` (see `CHANGELOG.md`)
-tracks the Phase 5 polish round: cleaner ID column, source-aware
-HUMAN badge, `wyk inbox`, `wyk handoff -create`, hook composability.
+**v0.2.0 shipped** (multi-repo support, agent inbox, hook chain,
+TUI polish, `wyk stats`, `wyk doctor`).  `[Unreleased]` (see
+`CHANGELOG.md`) tracks anything filed after this release.
 
 ## License
 
